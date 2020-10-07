@@ -1,0 +1,17 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "jy",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ljh",
+  "license": "ISC"
+}
