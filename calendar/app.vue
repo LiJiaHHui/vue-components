@@ -1,12 +1,8 @@
-<!--  -->
 <template>
-    <!-- <div>
-        爱拼才会赢
-    </div> -->
-    <calenday :value="now"></calenday>
+    <calendar :value="now"></calendar>
 </template>
 <script>
-import calenday from './calenday'
+import calendar from './calendar'
 export default {
     data() {
         return {
@@ -21,12 +17,10 @@ export default {
     mounted() {
     },
     components:{
-        calenday
+        calendar
     }
 }
 </script>
 <style lang="stylus">
 /* @import url(); 引入css类 */
-    div
-        background red
 </style>

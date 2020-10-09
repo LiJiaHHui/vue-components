@@ -1,8 +1,8 @@
 // 获取年月日
 const getYearMonthDay=(date)=> {
-    let year=date.getYear()
+    let year=date.getFullYear()
     let month=date.getMonth()
-    let day=date.getDay()
+    let day=date.getDate()
     return {year,month,day}
 }
 // 导出
